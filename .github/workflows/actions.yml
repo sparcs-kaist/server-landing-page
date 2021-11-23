@@ -1,0 +1,34 @@
+name: master
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Cloning
+        uses: actions/checkout@v2
+
+      - name: Package install
+        run: npm install
+
+      - name: Build
+        run: npm run build
+      
+      - name: Upload
+        uses: appleboy/scp-action@master
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          password: ${{ secrets.PASSWORD }}
+          proxy_host: ${{ secrets.PROXY_HOST }}
+          proxy_port: ${{ secrets.PROXY_PORT }}
+          proxy_username: ${{ secrets.USERNAME }}
+          proxy_password: ${{ secrets.PASSWORD }}
+
+          source: "dist"
+          target: "/usr/share/nginx/"
