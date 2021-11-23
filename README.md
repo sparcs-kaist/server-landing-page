@@ -6,7 +6,7 @@
 SPARCS에 새로운 서버가 들어오는 경우, `assets/contents.js` 파일에 서버의 정보를 추가해 주세요.
 
 ## 배포
-TODO
+master 브랜치로 커밋이 올라오는 경우, 자동으로 build 되어 `secrets.HOST`에 등록된 서버들에 배포됩니다. ssh 로그인에 사용되는 휠 비밀번호가 바뀌는 경우, Github의 secrets에서 바꿔주시길 바랍니다. 각 변수들에 대한 설명은 [여기](https://github.com/appleboy/scp-action)를 참고해 주세요.
 
 ## Project setup
 ```

@@ -114,7 +114,7 @@ export default {
 
     "localhost": {
         "name": "Localhost",
-        "desc": "Localhost 서버입니다. SPARCS에 새로운 서버가 들어온 경우, assets/content.js 파일에 서버의 정보를 추가해 주세요. ",
+        "desc": "Localhost 서버 혹은 알려지지 않은 서버입니다. SPARCS에 새로운 서버가 들어온 경우, assets/content.js 파일에 서버의 정보를 추가해 주세요. ",
         "spec": {
             "cpu": "Your CPU",
             "ram": "Your RAM",
@@ -125,7 +125,7 @@ export default {
         "services": {
             "Test": {
                 "links": ["http://localhost"],
-                "desc": "로컬 호스트 서비스입니다.",
+                "desc": "Test 서비스입니다.",
                 "name": "Test"
             }
         }
