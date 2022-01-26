@@ -13,6 +13,11 @@ export default {
             "os": "Red Hat (R) Enterprise Linux"
         },
         "services": {
+            "Biseo": {
+                "links": ["https://biseo.sparcs.org"],
+                "desc": "paco가 낳고 panya가 업어키워 gony가 책임집니다. SPARCS 종총의 밝은 미래. 스비서만 믿고 따라오세요.",
+                "name": "Biseo"
+            },
             "ELK": {
                 "links": ["https://elk.sparcs.org", "https://elastic.co"],
                 "desc": "\"ELK\"는 Elasticsearch, Logstash 및 Kibana, 이 오픈 소스 프로젝트 세 개의 머리글자입니다. Elasticsearch는 검색 및 분석 엔진입니다. Logstash는 여러 소스에서 동시에 데이터를 수집하여 변환한 후 Elasticsearch 같은 “stash”로 전송하는 서버 사이드 데이터 처리 파이프라인입니다. Kibana는 사용자가 Elasticsearch에서 차트와 그래프를 이용해 데이터를 시각화할 수 있게 해줍니다. 추후 개발될 예정입니다.",
