@@ -1,6 +1,6 @@
 <template>
   <div class="footer-container">
-    <p>SPARCS Server Landing Page 2021, Developer Triangle</p>
+    <p>SPARCS Server Landing Page 2023, Developer Triangle</p>
   </div>
 </template>
 

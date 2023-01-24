@@ -3,7 +3,7 @@ export default {
     name: "Bap",
     "name-kr": "밥",
     desc: "해당 서버는 2022년 말에 KAIST 정보통신팀으로부터 지원을 받았습니다. SPARCS 내부 서비스 및 GitHub Action을 위해 사용될 예정입니다.",
-    logo_url: "/bap.svg",
+    logo_url: "https://cdn-icons-png.flaticon.com/512/3067/3067788.png",
     spec: {
       cpu: "Intel(R) Xeon(R) Silver 4309Y @ 2.8GHz",
       ram: "64GB DDR4 2933MHz RDIMM",
@@ -32,7 +32,7 @@ export default {
     name: "Channeltalk",
     "name-kr": "채널톡",
     desc: "해당 서버는 2021년도 말에 채널톡에서 후원해 주신 서버입니다. ELK, OTL DB Script 등 SPARCS 내외부 서비스 연결용 및 데이터 보존 목적으로 사용되고 있습니다.",
-    logo_url: "https://channel.io/images2/common/ch-logo-ko.png",
+    logo_url: "https://channel.io/legacy/images2/team/sticker-work-02.png",
     link_name: "채널톡 바로가기",
     link: "https://channel.io",
     spec: {
@@ -149,6 +149,7 @@ export default {
     name: "Garam",
     "name-kr": "가람",
     desc: "해당 서버는 오래 전 KAIST 정보통신팀으로부터 지원을 받았습니다. Xen 하이퍼바이저 기반의 가상화가 적용되어 있습니다.",
+    logo_url: "/sparcs_darkgray.png",
     spec: {
       cpu: "Intel(R) Xeon(R) CPU E5645 @ 2.40GHz * 2",
       ram: "40GB DDR3 1333Mhz RDIMM",
@@ -167,6 +168,7 @@ export default {
     name: "Myeonglan",
     "name-kr": "명란",
     desc: "doran 서버가 부활하여 myeonglan이 되었습니다. SPARCS Wheel 회원이라면 누구나 자유롭게 이용할 수 있습니다.",
+    logo_url: "/sparcs_darkgray.png",
     spec: {
       cpu: "Intel(R) Xeon(R) CPU E5645 @ 2.40GHz * 2",
       ram: "64GB DDR3 1333MHz RDIMM",
@@ -189,6 +191,7 @@ export default {
   localhost: {
     name: "Localhost",
     desc: "Localhost 서버 혹은 알려지지 않은 서버입니다. SPARCS에 새로운 서버가 들어온 경우, assets/content.js 파일에 서버의 정보를 추가해 주세요. ",
+    logo_url: "/sparcs_darkgray.png",
     spec: {
       cpu: "Your CPU",
       ram: "Your RAM",
