@@ -14,7 +14,7 @@ export default {
       "NewAra-dev": {
         links: ["https://newara.dev.sparcs.org/"],
         desc: "NewAra dev 서비스가 운영되고 있습니다.",
-        name: "NewAra-dev",
+        name: "NewAra",
       },
       Elasticsearch: {
         links: ["https://newara.sparcs.org", "https://elastic.co"],
@@ -31,20 +31,21 @@ export default {
   channeltalk: {
     name: "Channeltalk",
     "name-kr": "채널톡",
-    desc: "해당 서버는 2021년도 말에 채널톡에서 후원해 주신 서버입니다. ELK, OTL DB Script 등 SPARCS 내외부 서비스 연결용 및 데이터 보존 목적으로 사용되고 있습니다.",
+    desc: "해당 서버는 2021년도 말에 채널톡에서 후원해 주신 서버입니다. Biseo 서비스와 Taxi 서비스가 채널톡 서버에서 운영되고 있으며, ELK, OTL DB Script 등 SPARCS 내외부 서비스 연결용 및 데이터 보존 목적으로도 사용되고 있습니다.",
     logo_url: "https://channel.io/legacy/images2/team/sticker-work-02.png",
     link_name: "채널톡 바로가기",
     link: "https://channel.io",
     spec: {
       cpu: "Intel(R) Xeon(R) Silver 4120R @ 2.40GHz",
       ram: "64GB DDR4 2400Mhz RDIMM",
-      hdd: "1TB NVMe",
+      ssd: "1TB NVMe",
+      hdd: "2TB * 2 SATA",
       os: "Ubuntu(R) 20.04.5 LTS",
     },
     services: {
       Biseo: {
         links: ["https://biseo.sparcs.org"],
-        desc: "paco가 낳고 panya가 업어키워 gony가 책임집니다. SPARCS 종총의 밝은 미래. 스비서만 믿고 따라오세요.",
+        desc: "paco가 낳고 panya가 업어키워 gony와 miru가 책임집니다. SPARCS 종총의 밝은 미래. 스비서만 믿고 따라오세요.",
         name: "Biseo",
       },
       Taxi: {
@@ -71,8 +72,8 @@ export default {
     logo_url: "/kong.png",
     spec: {
       cpu: "Intel(R) Xeon(R) CPU E3-1240 v6 @ 3.70GHz",
-      ram: "8GB",
-      ssd: "250GB SSD x2",
+      ram: "8GB * 1 DDR4 2400MHz ECC UDIMM",
+      ssd: "250GB * 2 SATA",
       os: "Ubuntu(R) 18.04.2 LTS",
     },
     services: {
@@ -148,7 +149,7 @@ export default {
   garam: {
     name: "Garam",
     "name-kr": "가람",
-    desc: "해당 서버는 오래 전 KAIST 정보통신팀으로부터 지원을 받았습니다. Xen 하이퍼바이저 기반의 가상화가 적용되어 있습니다.",
+    desc: "해당 서버는 오래 전 KAIST 정보통신팀으로부터 지원을 받았습니다. Xen 하이퍼바이저 기반의 가상화가 적용되어 있습니다. OTL 스크립트 이전 후 퇴역할 예정입니다.",
     logo_url: "/sparcs_darkgray.png",
     spec: {
       cpu: "Intel(R) Xeon(R) CPU E5645 @ 2.40GHz * 2",
